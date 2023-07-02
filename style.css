@@ -53,3 +53,13 @@ footer {
   padding: 10px;
   color: white;
 }
+
+@media screen and (min-width: 320px) {
+  .slide {
+    width: 100%;
+    height: 100% auto;
+  }
+  img {
+    width: 350px;
+  }
+}
