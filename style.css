@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.slide {
+  width: 100%;
+  height: 415px;
+  display: none;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.329);
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  height: 50px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+h3 {
+  color: rgb(62, 253, 62);
+  text-shadow: black 1px 1px 3px;
+}
+
+span {
+  color: black;
+  text-shadow: none;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
