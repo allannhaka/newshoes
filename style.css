@@ -23,11 +23,11 @@ header {
 }
 
 .logo {
-  width: 150px;
+  width: 100px;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 15px;
 }
 
@@ -50,10 +50,29 @@ span {
 footer {
   background-color: black;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  height: 20px;
   color: white;
 }
 
+main {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.iconwhats {
+  width: 20px;
+}
+
+.btn {
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgb(62, 253, 62);
+  border: 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
 @media screen and (min-width: 320px) {
   .slide {
     width: 100%;
@@ -61,5 +80,9 @@ footer {
   }
   img {
     width: 350px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
   }
 }
